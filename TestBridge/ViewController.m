@@ -16,8 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSLog(@"Test");
+    
 }
 
 
+- (IBAction)onSetVietnam:(UIButton *)sender {
+}
+
+- (IBAction)onSetEnglish:(UIButton *)sender {
+}
 @end

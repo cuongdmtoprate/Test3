@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *lblText;
+@property (weak, nonatomic) IBOutlet UIButton *bltSetEnglish;
+@property (weak, nonatomic) IBOutlet UIButton *bltSetVietnam;
+- (IBAction)onSetEnglish:(UIButton *)sender;
+
+- (IBAction)onSetVietnam:(UIButton *)sender;
 
 
 @end
